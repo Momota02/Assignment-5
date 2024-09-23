@@ -61,3 +61,16 @@ document.getElementById('donate3')
 
 
 })
+
+// add history
+document. getElementById('History')
+.addEventListener('click' ,function(){
+    document.getElementById('History').classList.add('bg-green-400')
+    document.getElementById('donation').classList.remove('bg-green-400')
+})
+// add don
+document. getElementById('donation')
+.addEventListener('click' ,function(){
+    document.getElementById('donation').classList.add('bg-green-400')
+    document.getElementById('History').classList.remove('bg-green-400')
+})
