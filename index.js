@@ -47,7 +47,7 @@ document.getElementById('donate2')
     const firsthistory=document.createElement('div')
     firsthistory.className="bg-white p-3 rounded-xl border-1 border-blue-500"
     firsthistory.innerHTML=`
-        <p class="text-2xl text-black font-bold">${enteramount1.toFixed(2)}Donate for Flood at Noakhali, Bangladesh</p>
+        <p class="text-2xl text-black font-bold">${enteramount1.toFixed(2)}Donate for Flood Relief in Feni,Bangladesh</p>
         <p class="text-2xl text-black font-bold">${new Date().toLocaleDateString()}</p>
     `
     document.getElementById('history-child').appendChild(firsthistory)
@@ -76,7 +76,7 @@ document.getElementById('donate3')
     const firsthistory=document.createElement('div')
     firsthistory.className="bg-white p-3 rounded-xl border-1 border-blue-500"
     firsthistory.innerHTML=`
-        <p class="text-2xl text-black font-bold">${enteramount1.toFixed(2)}Donate for Flood at Noakhali, Bangladesh</p>
+        <p class="text-2xl text-black font-bold">${enteramount1.toFixed(2)}Aid for Injured in the Quota Movement</p>
         <p class="text-2xl text-black font-bold">${new Date().toLocaleDateString()}</p>
     `
     document.getElementById('history-child').appendChild(firsthistory)
